@@ -1,0 +1,67 @@
+
+h1{
+    font-size: 50px;
+    color: rgb(38, 108, 148);
+    text-align: center;
+}
+.first, .second{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.first>div, .second>div{
+    margin: 50px;
+}
+.second{
+    margin-top: 50px;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: royalblue;
+
+}
+
+.rectangular{
+    width: 300px;
+    height: 150px;
+    background-color: royalblue;
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    background-color: royalblue;
+    border-radius: 50%;
+}
+
+.round{
+    width: 150px;
+    height: 150px;
+    border: 3px solid royalblue;
+    border-radius: 50%;
+}
+
+.triangle{
+    width: 150px;
+    height: 150px;
+    background-color: royalblue;
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+}
+
+.trapezium{
+    height: 150px;
+    width: 150px;
+    background-color: royalblue;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    
+}
+
+.diamond{
+    height: 150px;
+    width:150px;
+    background-color: royalblue;
+    clip-path: polygon(50% 0%, 80% 50%, 50% 100%, 20% 50%);
+    
+    
+}
