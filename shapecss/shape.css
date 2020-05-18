@@ -4,14 +4,14 @@ h1{
     color: rgb(38, 108, 148);
     text-align: center;
 }
-.first, .second{
+.first, .second, .third{
     display: flex;
     flex-wrap: nowrap;
 }
-.first>div, .second>div{
+.first>div, .second>div, .third>div{
     margin: 50px;
 }
-.second{
+.second, .third{
     margin-top: 50px;
 }
 
@@ -64,4 +64,26 @@ h1{
     clip-path: polygon(50% 0%, 80% 50%, 50% 100%, 20% 50%);
     
     
+}
+.triangle2{
+    width:0px;
+    height: 0px;
+    border-bottom: 150px solid royalblue;
+    border-left: 150px solid transparent;
+}
+.trapezium2{
+    width: 70px;
+    border-top: none;
+    border-right: 70px solid transparent;
+    border-bottom: 150px solid royalblue;
+    border-left: 70px solid transparent;
+
+
+}
+.diamond2{
+    height: 150px;
+    width:150px;
+    background-color: royalblue;
+    transform: rotate(-45deg);
+
 }
